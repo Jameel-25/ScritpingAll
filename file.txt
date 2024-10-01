@@ -71,3 +71,22 @@ Example:
 
 print name of the script
 echo "The name of the script is: ${0}"
+
+
+#
+Log messages..
+If you want to maintain the logging for 
+your script, you can use logger in your
+script.
+You can find the logs under
+/var/logs/messages
+
+Example: #loggers "Hey Buddy"
+
+#
+Debugging scripts
+
+If we can enable the debugging of the
+script using below in the script
+
+set -x
