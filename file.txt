@@ -65,3 +65,9 @@ we can redirect the output ot
 
 Example:
 #cd /root &> /dev/null
+
+
+#
+
+print name of the script
+echo "The name of the script is: ${0}"
