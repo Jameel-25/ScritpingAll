@@ -1,0 +1,67 @@
+#myscript.sh arg1 arg2..
+How to access these arguments inside our script?
+
+To get no. of arguments      : $#
+To display all arguments     : $@
+To use or display a argument : $1 $2..
+
+
+Shift
+
+When we pass multiple
+arguements, we can shift.
+
+A B C
+shift
+B C
+
+
+#
+
+break - to stop the loop
+
+continue - to stop current iteration of 
+loop and start next iteration
+
+#
+
+sleep - to create delay between two 
+executions ex: sleep 1s/1m
+
+exit - to stop script at a point
+
+exit status $? - gives you status of previous command if that was successful
+
+
+#
+
+basename - strip directory info and 
+only give filename
+
+dirname - strip the filename and gives 
+directory path
+
+realpath - gives you full path for a file
+
+# 
+bash variables
+random - A random integer between 0 and 32767 is generated
+
+UID - User ID of the user logged in
+
+# 
+Rdirection in scripts
+>  
+>>
+
+
+#
+
+In case if you don't wanna print the
+output of a commadn on terminal or
+write in afile,
+we can redirect the output ot
+/dev/null
+
+Example:
+#cd /root &> /dev/null
