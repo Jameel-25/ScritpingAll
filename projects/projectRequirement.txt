@@ -1,0 +1,14 @@
+In the given directory, if you find files more than a given size ex:
+20MB or files older than given days ex:10days
+
+Compress those files and move in a 'archive folder'
+
+steps of script:
+
+provide the path of directory
+check if the direcotry is present or not
+create 'archive' folder if not already present
+find all the files with size more than 20MB
+compress each file
+move the compressed files in 'archive' folder
+make a cron job to run the script every day at give time
