@@ -1,0 +1,5 @@
+1. Monitoring free RAM space
+
+
+2. Monitoring free DISK space
+   and sent an Alert Email

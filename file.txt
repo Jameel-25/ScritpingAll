@@ -90,3 +90,28 @@ If we can enable the debugging of the
 script using below in the script
 
 set -x
+
+#
+If we want to exit our script when a 
+command fail
+
+set -e
+
+
+
+#
+For scheduling only one time, use AT
+
+at 12:09 PM
+<your_command>
+Ctrl + D
+
+atq to check scheduled job
+atrm <id> to remove the schedule
+
+
+#
+To check the existing jobs - crontab -l
+to add new job - crontab -e
+
+***** cd /home/mohammedjameel/myscrips && ./create_file.txt

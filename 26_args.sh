@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -x
 # To access the arguments
 
 if [[ $# -eq 0 ]]
